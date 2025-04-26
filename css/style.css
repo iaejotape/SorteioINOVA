@@ -189,7 +189,6 @@ h2 {
     background: #45a049;
 }
   
-  /* Responsivo */
   @media (max-width: 768px) {
     .input-section {
       flex-direction: column;
