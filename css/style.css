@@ -15,13 +15,15 @@ body {
 
 .header img {
   position: relative;
-  top: 80px;
+  top: 20px;
   left: 265px;
   width: 163px;
   height: auto;
 }
 
 .celular-container {
+  position: relative;
+  top: -70px;
   display: flex;
   padding-left: 120px;
 }
@@ -33,7 +35,7 @@ body {
 
 .celular-container h1 {
   position: relative;
-  top: 140px;
+  top: 100px;
   left: -50px;
   font-size: 76px;
   font-weight: 800;
@@ -44,10 +46,117 @@ body {
 }
 
 .celular-container span {
-  font-size: 90px;
+  font-size: 72px;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+.quadro-container {
+  position: relative;
+  display: flex;
+  top: -600px;
+  right: -525px;
+  width: 500px;
+  height: 350px;
+}
+
+.quadro {
+  width: 470px;
+  height: 343px;
+  border-radius: 40px;
+  background: #111;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.resultado-container {
+  position: relative;
+  top: -18px;
+  text-align: center;
+  padding: 20px;
+}
+
+.resultado-ordem {
+  font-size: 16px;
+  color: #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.resultado-numero {
+  font-size: 40px;
+  color: #00ff00;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.btn-sortear-novamente {
+  background-color: #222;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-sortear-novamente:hover {
+  background-color: #444;
+}
+
+.resultado-sorteio {
+  padding: 20px;
+  font-family: 'Sora', sans-serif;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.sorteado-item {
+  position: relative;
+  top: 20px;
+  left: 5px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+}
+
+
+.cobrinha {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 470px;
+  height: 350px;
+  z-index: 2;
+}
+
+.cobrinha rect {
+  fill: none;
+  stroke: #00ff7f;
+  stroke-width: 6; 
+  stroke-dasharray: 150 1050; 
+  stroke-dashoffset: 0;
+  animation: moverCobrinha 3s linear infinite;
+  stroke-linecap: round;
+
+}
+
+@keyframes moverCobrinha {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -1200; 
+  }
 }
 
 .main-container {
+  top: -300px;
+  position: relative;
   display: flex;
   justify-content: right;
   padding-right: 120px;
@@ -114,8 +223,8 @@ h2 {
   .input-box input {
     width: 80px;
     height: 50px;
-    background: #191919;
-    border: 1px solid #333;
+    background: #111012;
+    border: none;
     border-radius: 8px;
     padding: 10px;
     font-size: 20px;
