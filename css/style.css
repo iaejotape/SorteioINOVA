@@ -33,6 +33,7 @@ body {
   height: auto;
 }
 
+
 .celular-container h1 {
   position: relative;
   top: 100px;
@@ -75,21 +76,22 @@ body {
 }
 
 .resultado-container {
+  font-size: 20px;
   position: relative;
-  top: -18px;
+  top: 20px;
   text-align: center;
   padding: 20px;
 }
 
 .resultado-ordem {
-  font-size: 16px;
+  font-size: 20px;
   color: #ccc;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 .resultado-numero {
-  font-size: 40px;
+  font-size: 60px;
   color: #00ff00;
   font-weight: bold;
   margin-bottom: 10px;
