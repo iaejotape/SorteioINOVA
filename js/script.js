@@ -1,150 +1,245 @@
-const participantes = [
-  { nome: "João de Oliveira Damasceno Junyor", cartela: "202504", numero: 65, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "João de Oliveira Damasceno Junyor", cartela: "202504", numero: 77, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Pedro Cardozo de Oliveira", cartela: "202504", numero: 66, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Pedro Cardozo de Oliveira", cartela: "202504", numero: 71, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Francisca Keila de Souza Oliveira", cartela: "202504", numero: 78, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Amanda Oliveira", cartela: "202504", numero: 79, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Amanda Oliveira", cartela: "202504", numero: 80, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Cíntia de Sousa Oliveira", cartela: "202504", numero: 61, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Cíntia de Sousa Oliveira", cartela: "202504", numero: 68, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Laís Nicolly", cartela: "202502", numero: 25, vendedor: "Ryan Batista" },
-  { nome: "Emília Nunes", cartela: "202502", numero: 35, vendedor: "Ryan Batista" },
-  { nome: "Emília Nunes", cartela: "202502", numero: 45, vendedor: "Diogo Bruno" },
-  { nome: "Matheus Henrique dos Santos Zulian", cartela: "202504", numero: 62, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Matheus Henrique dos Santos Zulian", cartela: "202504", numero: 67, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Matheus Henrique dos Santos Zulian", cartela: "202504", numero: 73, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Matheus Henrique dos Santos Zulian", cartela: "202504", numero: 74, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Urcilene", cartela: "202506", numero: 81, vendedor: "Priscila Freitas" },
-  { nome: "Urcilene", cartela: "202506", numero: 82, vendedor: "Priscila Freitas" },
-  { nome: "Urcilene", cartela: "202506", numero: 83, vendedor: "Priscila Freitas" },
-  { nome: "Urcilene", cartela: "202506", numero: 84, vendedor: "Priscila Freitas" },
-  { nome: "Urcilene", cartela: "202506", numero: 85, vendedor: "Priscila Freitas" },
-  { nome: "Izaque Nicolas Vieira de Melo", cartela: "202503", numero: 81, vendedor: "Isac Brito Matos" },
-  { nome: "Urcilene", cartela: "202506", numero: 86, vendedor: "Priscila Freitas" },
-  { nome: "Ravena", cartela: "202506", numero: 97, vendedor: "Priscila Freitas" },
-  { nome: "Isac Brito Matos", cartela: "202504", numero: 21, vendedor: "Izaque Nicolas Vieira de Melo" },
-  { nome: "Keila", cartela: "202506", numero: 89, vendedor: "Priscila Freitas" },
-  { nome: "Izaque Nicolas Vieira de Melo", cartela: "202503", numero: 100, vendedor: "Isac Brito Matos" },
-  { nome: "Isac Brito Matos", cartela: "202504", numero: 40, vendedor: "Izaque Nicolas Vieira de Melo" },
-  { nome: "Ulgo", cartela: "202506", numero: 91, vendedor: "Priscila Freitas" },
-  { nome: "Emilia", cartela: "202506", numero: 95, vendedor: "Priscila Freitas" },
-  { nome: "Ulga", cartela: "202506", numero: 97, vendedor: "Priscila Freitas" },
-  { nome: "Ulga", cartela: "202506", numero: 88, vendedor: "Priscila Freitas" },
-  { nome: "Ulga", cartela: "202506", numero: 90, vendedor: "Priscila Freitas" },
-  { nome: "Ian", cartela: "202506", numero: 98, vendedor: "Priscila Freitas" },
-  { nome: "Eduardo", cartela: "202506", numero: 99, vendedor: "Priscila Freitas" },
-  { nome: "Quezia Damas", cartela: "202506", numero: 87, vendedor: "Priscila Freitas" },
-  { nome: "Sebasthian", cartela: "202504", numero: 74, vendedor: "Gilvan" },
-  { nome: "Hugo", cartela: "202503", numero: 29, vendedor: "Gilvan" },
-  { nome: "Sebasthian", cartela: "202503", numero: 22, vendedor: "Gilvan" },
-  { nome: "Gilvan pai", cartela: "202503", numero: 21, vendedor: "Gilvan" },
-  { nome: "Ana Maria dos Santos Oliveira", cartela: "202503", numero: 23, vendedor: "Gilvan" },
-  { nome: "Luiz Eduardo", cartela: "202506", numero: 94, vendedor: "Priscila Freitas" },
-  { nome: "Luiz Eduardo", cartela: "202506", numero: 100, vendedor: "Priscila Freitas" },
-  { nome: "Diego Oliveira", cartela: "202502", numero: 39, vendedor: "Gilvan" },
-  { nome: "Diego Oliveira", cartela: "202503", numero: 38, vendedor: "Gilvan" },
-  { nome: "Victor Alexandre", cartela: "202503", numero: 37, vendedor: "Gilvan" },
-  { nome: "Emanuel Veloso", cartela: "202503", numero: 36, vendedor: "Gilvan" },
-  { nome: "Emanuel Veloso", cartela: "202503", numero: 35, vendedor: "Gilvan" },
-  { nome: "Laércio da Silva Brito", cartela: "202504", numero: 63, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Laércio da Silva Brito", cartela: "202504", numero: 64, vendedor: "João Pedro de Oliveira Damasceno" },
-  { nome: "Gian navar", cartela: "202503", numero: 34, vendedor: "Gilvan" },
-  { nome: "Gian navar", cartela: "202503", numero: 33, vendedor: "Gilvan" },
-  { nome: "Paulo Henrique", cartela: "202503", numero: 32, vendedor: "Gilvan" },
-  { nome: "Luís Carlos", cartela: "202502", numero: 37, vendedor: "Ryan Batista" },
-  { nome: "Maria Clara Amaral", cartela: "202502", numero: 48, vendedor: "Diogo Bruno" },
-  { nome: "Maria Clara Amaral", cartela: "202502", numero: 60, vendedor: "Diogo Bruno" },
-  { nome: "João Silva", cartela: "1", numero: 1, vendedor: "Maria" },
-  { nome: "Ana Costa", cartela: "1", numero: 2, vendedor: "Pedro" },
-  { nome: "Bruno Souza", cartela: "1", numero: 100, vendedor: "Fernanda" },
-  { nome: "Carlos Mendes", cartela: "2", numero: 1, vendedor: "José" },
-  { nome: "Patrícia Silva", cartela: "2", numero: 2, vendedor: "Ana" }
-];
+// Variáveis globais
+let participantesData = [];
+let sorteados = [];
+let sorteioAtual = 0;
 
-  
-  let sorteados = [];
-  let sorteioAtual = 0;
-  
-  function sortear() {
-    const quantidade = 2; // Queremos sempre dois sorteados
-    const de = parseInt(document.getElementById('min').value);
-    const ate = parseInt(document.getElementById('max').value);
+// Criar lista animada de participantes
+function criarListaAnimada() {
+  const listaContainer = document.getElementById("lista-participantes");
+  if (!listaContainer) return;
 
-    if (sorteados.length === 0 || sorteioAtual >= sorteados.length) {
-        let numerosDisponiveis = participantes.filter(p => 
-            p.numero >= de && 
-            p.numero <= ate &&
-            !sorteados.some(s => s.numero === p.numero) // Exclui números já sorteados
-        );
-
-        if (numerosDisponiveis.length === 0) {
-            alert('Não há números disponíveis nesse intervalo!');
-            return;
-        }
-
-        numerosDisponiveis.sort(() => Math.random() - 0.5);
-
-        sorteados = numerosDisponiveis.slice(0, quantidade);
-        sorteioAtual = 0;
-        document.getElementById('resultado-sorteio').innerHTML = '';
+  // Se não há dados ainda, criar dados de exemplo
+  if (participantesData.length === 0) {
+    // Criar lista simples de exemplo para aparecer imediatamente
+    let listaExemplo = "";
+    for (let i = 1; i <= 100; i++) {
+      listaExemplo += `<div class="participante-item">${i} - Participante ${i}</div>`;
     }
+    listaContainer.innerHTML = listaExemplo + listaExemplo + listaExemplo;
+  } else {
+    // Ordenar participantes por número
+    const participantesOrdenados = [...participantesData].sort(
+      (a, b) => a.numero - b.numero
+    );
 
-    iniciarContagem(() => {
-        mostrarResultado(sorteados[sorteioAtual]);
-        sorteioAtual++;
+    // Criar HTML da lista
+    let listaHTML = "";
+    participantesOrdenados.forEach((participante) => {
+      listaHTML += `<div class="participante-item">${participante.numero} - ${participante.nome}</div>`;
     });
+
+    // Triplicar a lista para criar efeito contínuo mais suave
+    listaContainer.innerHTML = listaHTML + listaHTML + listaHTML;
   }
-  
-  function iniciarContagem(callback) {
-    const resultadoDiv = document.getElementById('resultado-sorteio');
-    resultadoDiv.innerHTML = ''; // Limpa o resultado
-  
-    let contador = 5;
-  
-    const contadorDiv = document.createElement('div');
-    contadorDiv.classList.add('contador');
-    contadorDiv.style.fontSize = '60px';
-    contadorDiv.style.fontWeight = 'bold';
-    contadorDiv.style.color = '#00ff00';
-    contadorDiv.style.textAlign = 'center';
-    resultadoDiv.appendChild(contadorDiv);
-  
-    const intervalo = setInterval(() => {
-      contadorDiv.innerText = contador;
-      contador--;
-  
-      if (contador < 0) {
-        clearInterval(intervalo);
-        callback(); // Chama a função para mostrar o resultado depois da contagem
+
+  // Forçar a exibição imediata
+  listaContainer.style.opacity = "1";
+  listaContainer.style.visibility = "visible";
+  listaContainer.style.display = "block";
+  listaContainer.style.animation = "scrollLista 600s linear infinite";
+}
+
+// Carregar dados dos participantes
+async function carregarParticipantes() {
+  try {
+    const response = await fetch("../participantes.json");
+    participantesData = await response.json();
+    console.log(`Carregados ${participantesData.length} participantes`);
+    criarListaAnimada();
+  } catch (error) {
+    console.error("Erro ao carregar participantes:", error);
+    alert("Erro ao carregar participantes! Verifique o arquivo JSON.");
+    participantesData = []; 
+  }
+}
+
+// Função de sorteio melhorada
+function sortear() {
+  const quantidade = parseInt(document.getElementById("quantity").value) || 2;
+  const de = parseInt(document.getElementById("min").value) || 1;
+  const ate = parseInt(document.getElementById("max").value) || 100;
+  const naoRepetir = document.getElementById("unique").checked;
+
+  // Validações
+  if (de > ate) {
+    alert('O valor "DE" deve ser menor ou igual ao valor "ATÉ"!');
+    return;
+  }
+
+  if (quantidade <= 0) {
+    alert("A quantidade deve ser maior que zero!");
+    return;
+  }
+
+  // Filtrar participantes no intervalo especificado
+  let numerosDisponiveis = participantesData.filter(
+    (p) => p.numero >= de && p.numero <= ate
+  );
+
+  if (naoRepetir) {
+    // Remover números já sorteados se a opção estiver marcada
+    numerosDisponiveis = numerosDisponiveis.filter(
+      (p) => !sorteados.some((s) => s.numero === p.numero)
+    );
+  }
+
+  if (numerosDisponiveis.length === 0) {
+    alert("Não há números disponíveis nesse intervalo!");
+    return;
+  }
+
+  if (quantidade > numerosDisponiveis.length) {
+    alert(
+      `Só existem ${numerosDisponiveis.length} números disponíveis nesse intervalo!`
+    );
+    return;
+  }
+
+  // Embaralhar e selecionar
+  numerosDisponiveis.sort(() => Math.random() - 0.5);
+  const novosSorteados = numerosDisponiveis.slice(0, quantidade);
+
+  // Adicionar aos sorteados se não repetir estiver marcado
+  if (naoRepetir) {
+    sorteados.push(...novosSorteados);
+  }
+
+  // Iniciar animação de contagem
+  iniciarContagem(() => {
+    mostrarResultados(novosSorteados);
+  });
+}
+
+// Função de contagem regressiva
+function iniciarContagem(callback) {
+  const resultadoDiv = document.getElementById("resultado-sorteio");
+  resultadoDiv.innerHTML = "";
+
+  let contador = 5;
+
+  const contadorDiv = document.createElement("div");
+  contadorDiv.classList.add("contador");
+  contadorDiv.style.fontSize = "60px";
+  contadorDiv.style.fontWeight = "bold";
+  contadorDiv.style.color = "#00ff00";
+  contadorDiv.style.textAlign = "center";
+  contadorDiv.style.marginTop = "100px";
+  resultadoDiv.appendChild(contadorDiv);
+
+  const intervalo = setInterval(() => {
+    contadorDiv.innerText = contador;
+    contador--;
+
+    if (contador < 0) {
+      clearInterval(intervalo);
+      callback();
+    }
+  }, 700);
+}
+
+// Mostrar resultados do sorteio com delay maior
+function mostrarResultados(participantesSorteados) {
+  const resultadoDiv = document.getElementById("resultado-sorteio");
+  resultadoDiv.innerHTML = "";
+
+  let numeroAtual = 0;
+
+  function mostrarProximoNumero() {
+    if (numeroAtual < participantesSorteados.length) {
+      const participante = participantesSorteados[numeroAtual];
+
+      // Limpar resultado anterior
+      resultadoDiv.innerHTML = "";
+
+      const itemDiv = document.createElement("div");
+      itemDiv.classList.add("sorteado-item", "numero-aparecendo");
+
+      const ordem = document.createElement("div");
+      ordem.classList.add("resultado-ordem");
+      ordem.innerText = `${numeroAtual + 1}º Resultado`;
+
+      const numero = document.createElement("div");
+      numero.classList.add("resultado-numero");
+      numero.innerText = participante.numero;
+
+      const infos = document.createElement("div");
+      infos.classList.add("resultado-infos");
+      infos.innerHTML = `
+        <strong>Nome:</strong> ${participante.nome} <br>
+        <strong>Cartela:</strong> ${participante.cartela} <br>
+        <strong>Vendedor:</strong> ${participante.vendedor}
+      `;
+
+      itemDiv.appendChild(ordem);
+      itemDiv.appendChild(numero);
+      itemDiv.appendChild(infos);
+      resultadoDiv.appendChild(itemDiv);
+
+      numeroAtual++;
+
+      // Se ainda há números para mostrar, agendar o próximo com delay maior
+      if (numeroAtual < participantesSorteados.length) {
+        setTimeout(mostrarProximoNumero, 4000); // Aumentei para 4 segundos
+      } else {
+        // Todos os números foram mostrados, abrir modal após 5 segundos
+        setTimeout(() => {
+          abrirModal(participantesSorteados);
+        }, 5000);
       }
-    }, 700); // Tempo entre números da contagem (700ms = 0.7s para ficar mais dramático)
+    }
   }
-  
-  function mostrarResultado(participante) {
-    const resultadoDiv = document.getElementById('resultado-sorteio');
-    resultadoDiv.innerHTML = '';
-  
-    const ordem = document.createElement('div');
-    ordem.classList.add('resultado-ordem');
-    ordem.innerText = `${sorteioAtual + 1}º Resultado`;
-  
-    const numero = document.createElement('div');
-    numero.classList.add('resultado-numero');
-    numero.innerText = participante.numero;
-  
-    const infos = document.createElement('div');
-    infos.classList.add('resultado-infos');
-    infos.innerHTML = `
-      <strong>Nome:</strong> ${participante.nome} <br>
-      <strong>Cartela:</strong> ${participante.cartela} <br>
-      <strong>Vendedor:</strong> ${participante.vendedor}
+
+  // Começar a mostrar os números
+  mostrarProximoNumero();
+}
+
+// Função para abrir o modal com todos os resultados incluindo nomes
+function abrirModal(participantesSorteados) {
+  const modal = document.getElementById("modal-resultados");
+  const numbersContainer = document.getElementById("modal-numbers");
+
+  // Limpar números anteriores
+  numbersContainer.innerHTML = "";
+
+  // Adicionar cada participante sorteado com número e nome
+  participantesSorteados.forEach((participante, index) => {
+    const winnerDiv = document.createElement("div");
+    winnerDiv.classList.add("modal-winner");
+
+    // Definir estilos inline para garantir que apareçam
+    winnerDiv.style.opacity = "0";
+    winnerDiv.style.transform = "translateY(20px)";
+    winnerDiv.style.transition = "all 0.8s ease-out";
+
+    winnerDiv.innerHTML = `
+      <div class="modal-number">${participante.numero}</div>
+      <div class="modal-name">${participante.nome}</div>
+      <div class="modal-cartela">Cartela: ${participante.cartela}</div>
     `;
-  
-    const linha = document.createElement('hr');
-    linha.classList.add('linha-divisoria');
-  
-    resultadoDiv.appendChild(ordem);
-    resultadoDiv.appendChild(numero);
-    resultadoDiv.appendChild(infos);
-  }
+
+    numbersContainer.appendChild(winnerDiv);
+
+    // Animar entrada com delay
+    setTimeout(() => {
+      winnerDiv.style.opacity = "1";
+      winnerDiv.style.transform = "translateY(0)";
+    }, index * 300);
+  });
+
+  // Mostrar modal
+  modal.classList.add("show");
+}
+
+// Função para fechar o modal
+function fecharModal() {
+  const modal = document.getElementById("modal-resultados");
+  modal.classList.remove("show");
+}
+
+// Inicializar quando a página carregar
+document.addEventListener("DOMContentLoaded", function () {
+  // Criar lista animada imediatamente
+  criarListaAnimada();
+  // Carregar dados dos participantes
+  carregarParticipantes();
+});

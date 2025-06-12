@@ -1,0 +1,3806 @@
+[
+  {
+    "numero": 1,
+    "nome": "Valéria Borges",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 1,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 1,
+    "nome": "Dayane Nogueira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 1,
+    "nome": "Mairon",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 1,
+    "nome": "Rafael",
+    "cartela": 202506,
+    "vendedor": "Mateus Damasceno"
+  },
+  {
+    "numero": 1,
+    "nome": "Maria Félix de Carvalho Tavares",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 1,
+    "nome": "Silza Vieira",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 2,
+    "nome": "Valéria Borges",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 2,
+    "nome": "Everton Duarte Baiao",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 2,
+    "nome": "Manoel Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 2,
+    "nome": "Mairon",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 2,
+    "nome": "Artur Jaime",
+    "cartela": 202506,
+    "vendedor": "Mateus Damasceno"
+  },
+  {
+    "numero": 2,
+    "nome": "Deuziane Resende",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 2,
+    "nome": "Silza Vieira",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 3,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 3,
+    "nome": "Melquisedeque Salatiel",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 3,
+    "nome": "Manoel Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 3,
+    "nome": "Hiury",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 3,
+    "nome": "Regina",
+    "cartela": 202506,
+    "vendedor": "Mateus Damasceno"
+  },
+  {
+    "numero": 3,
+    "nome": "Agata Tavares",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 3,
+    "nome": "Sidinha Santos",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 4,
+    "nome": "Edineide Lacerda Duarte",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 4,
+    "nome": "Santiago Ribeiro",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 4,
+    "nome": "Manoel Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 4,
+    "nome": "Jaildo",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 4,
+    "nome": "Tayla Vitória Alves da Silva",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves da Silva"
+  },
+  {
+    "numero": 4,
+    "nome": "Marcos",
+    "cartela": 202506,
+    "vendedor": "Mateus Damasceno"
+  },
+  {
+    "numero": 4,
+    "nome": "Anderson Tavares",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 4,
+    "nome": "Auria Nayara Vieira de Melo",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 5,
+    "nome": "Larissa Moura Carvalho",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 5,
+    "nome": "Elineide Lacerda Duarte",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 5,
+    "nome": "Manoel Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 5,
+    "nome": "Inacia",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 5,
+    "nome": "Luiz Fernando",
+    "cartela": 202506,
+    "vendedor": "Mateus Damasceno"
+  },
+  {
+    "numero": 5,
+    "nome": "Camila Tavares",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 5,
+    "nome": "Ana Paula Santana",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 5,
+    "nome": "Ana Vitória Martins Nunes",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 6,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 6,
+    "nome": "Maria da Conceição",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 6,
+    "nome": "Hiury",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 6,
+    "nome": "Carlos",
+    "cartela": 202506,
+    "vendedor": "Mateus Damasceno"
+  },
+  {
+    "numero": 6,
+    "nome": "Artur Tavares",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 6,
+    "nome": "Filandio Júnior",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 6,
+    "nome": "Delvaldino Vieira",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 7,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 7,
+    "nome": "Denis ferreira dos santos",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 7,
+    "nome": "Maria da Conceição",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 7,
+    "nome": "Mairon",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 7,
+    "nome": "Rafael",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 7,
+    "nome": "Aparecida Tavares",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 7,
+    "nome": "David Carvalho",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 7,
+    "nome": "Adeandro",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 8,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 8,
+    "nome": "Denis ferreira dos santos",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 8,
+    "nome": "Maria da Conceição",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 8,
+    "nome": "Mairon",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 8,
+    "nome": "Rosângela",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 8,
+    "nome": "Júnior Tavares",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 8,
+    "nome": "Adeandro",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 8,
+    "nome": "Valdenir Vieira Sousa",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 9,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 9,
+    "nome": "Denis ferreira dos santos",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 9,
+    "nome": "Maria da Conceição",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 9,
+    "nome": "Thyelle",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 9,
+    "nome": "Carlos",
+    "cartela": 202506,
+    "vendedor": "Mateus Damasceno"
+  },
+  {
+    "numero": 9,
+    "nome": "Maria Félix de Carvalho Tavares",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 9,
+    "nome": "Eva Barros",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 9,
+    "nome": "Valdenir Vieira Sousa",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 10,
+    "nome": "Everton Duarte Baiao",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 10,
+    "nome": "Valquíria",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 10,
+    "nome": "Derramos",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 10,
+    "nome": "Adrielle Joice Alves da Silva",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves da Silva"
+  },
+  {
+    "numero": 10,
+    "nome": "Tiago",
+    "cartela": 202506,
+    "vendedor": "Mateus Damasceno"
+  },
+  {
+    "numero": 10,
+    "nome": "Alyssontvrs Tavares de Oliveira",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 10,
+    "nome": "Auria Nayara Vieira de Melo",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 10,
+    "nome": "Isabel Cristina Santos",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 11,
+    "nome": "Everton Duarte Baiao",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 11,
+    "nome": "Antônio Vieira",
+    "cartela": 202503,
+    "vendedor": "Gabriel Vieira"
+  },
+  {
+    "numero": 11,
+    "nome": "Anna Letícia Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 11,
+    "nome": "Mairon",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 11,
+    "nome": "Rafael",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 11,
+    "nome": "Eva Barros",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 11,
+    "nome": "Gabriel França",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 12,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 12,
+    "nome": "Miguel Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 12,
+    "nome": "Hitalo",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 12,
+    "nome": "Adriana",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 12,
+    "nome": "Alysson Tavares de Oliveira",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 12,
+    "nome": "David Carvalho",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 12,
+    "nome": "Lavínia Feitosa",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 13,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 13,
+    "nome": "Raylane dos santos alves",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 13,
+    "nome": "Miguel Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 13,
+    "nome": "Leonardo",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 13,
+    "nome": "Karlos Emanoel Alves da Silva",
+    "cartela": 202501,
+    "vendedor": "Adrieĺle Joice Alves da Silva"
+  },
+  {
+    "numero": 13,
+    "nome": "Rafael",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 13,
+    "nome": "Anderson Tavares",
+    "cartela": 202501,
+    "vendedor": "Alysson Tavares de Oliveira"
+  },
+  {
+    "numero": 13,
+    "nome": "Eva Barros",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 13,
+    "nome": "Gabriel França",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 14,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 14,
+    "nome": "Denis ferreira dos santos",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 14,
+    "nome": "Miguel Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 14,
+    "nome": "Hiury",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 14,
+    "nome": "Regina",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 14,
+    "nome": "Ana Vitória Martins Nunes",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 14,
+    "nome": "Eva Barros",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 15,
+    "nome": "Gabriel Davi Pereira da Silva",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 15,
+    "nome": "Cleber Duarte Baiao",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 15,
+    "nome": "Miguel Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 15,
+    "nome": "Leonardo",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 15,
+    "nome": "Rosângela",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 15,
+    "nome": "Eva Barros",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 15,
+    "nome": "Gabriel França",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 16,
+    "nome": "Cleber Duarte Baiao",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 16,
+    "nome": "Vanessa da Silva Oliveira",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 16,
+    "nome": "Anna Letícia Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 16,
+    "nome": "Miriam",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 16,
+    "nome": "Arlete",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 16,
+    "nome": "Bruno",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 16,
+    "nome": "Isabel Cristina Santos",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 17,
+    "nome": "Pedro Lucas Alves de Assis Cardoso",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 17,
+    "nome": "Everton Duarte Baiao",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 17,
+    "nome": "Richarlysson Santiago",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 17,
+    "nome": "Anna Letícia Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 17,
+    "nome": "Miriam",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 17,
+    "nome": "Weliton",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 17,
+    "nome": "Eva Barros",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 18,
+    "nome": "Elineide Lacerda Duarte",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 18,
+    "nome": "Anna Letícia Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 18,
+    "nome": "Hiury",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 18,
+    "nome": "Renata Dos Santos Alves",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves da Silva"
+  },
+  {
+    "numero": 18,
+    "nome": "Rosângela",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 18,
+    "nome": "Lavínia Feitosa",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 18,
+    "nome": "Gabriel França",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 19,
+    "nome": "Gabriel Davi Pereira da Silva",
+    "cartela": 202501,
+    "vendedor": "Adrielle Joice Alves Da Silva"
+  },
+  {
+    "numero": 19,
+    "nome": "Edineide Lacerda Duarte",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 19,
+    "nome": "Anna Letícia Vieira",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 19,
+    "nome": "Thyelle",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 19,
+    "nome": "Adriana",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 19,
+    "nome": "Eva Barros",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 19,
+    "nome": "Gabriel França",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 20,
+    "nome": "Edna Pereira de Lacerda",
+    "cartela": 202502,
+    "vendedor": "Cleber Henrique Lacerda Duarte"
+  },
+  {
+    "numero": 20,
+    "nome": "Valquíria",
+    "cartela": 202505,
+    "vendedor": "José Henrique Vieira da Silva"
+  },
+  {
+    "numero": 20,
+    "nome": "Hitalo",
+    "cartela": 202504,
+    "vendedor": "Izadora"
+  },
+  {
+    "numero": 20,
+    "nome": "Leonardo Berg",
+    "cartela": 202506,
+    "vendedor": "Damasceno"
+  },
+  {
+    "numero": 20,
+    "nome": "Eva Barros",
+    "cartela": 202508,
+    "vendedor": "Victor Sarrís Silva Santos"
+  },
+  {
+    "numero": 20,
+    "nome": "Gabriel França",
+    "cartela": 202503,
+    "vendedor": "Gabriel França"
+  },
+  {
+    "numero": 21,
+    "nome": "Isac Brito Matos",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 21,
+    "nome": "Gilvan pai",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 21,
+    "nome": "Adailton Silva",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 21,
+    "nome": "Izaque Nicolas Vieira",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 21,
+    "nome": "Maria Luiza Mendes de Sousa Silva",
+    "cartela": 202505,
+    "vendedor": "Juliana de Sousa Silva"
+  },
+  {
+    "numero": 21,
+    "nome": "André",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 21,
+    "nome": "Ryan",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 22,
+    "nome": "Sebasthian",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 22,
+    "nome": "Leonardo Cabedo",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 22,
+    "nome": "Evenilson Chaves",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 22,
+    "nome": "Wladimir Santana Ribeiro Junior",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 22,
+    "nome": "Luiz",
+    "cartela": 202505,
+    "vendedor": "Juliana"
+  },
+  {
+    "numero": 22,
+    "nome": "Mikaren",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 22,
+    "nome": "Mikaren",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 23,
+    "nome": "Ana Maria dos Santos Oliveira",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 23,
+    "nome": "Regina Rodrigues",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 23,
+    "nome": "Wladimir Santana Ribeiro",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 23,
+    "nome": "Victor",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 23,
+    "nome": "Yasmin",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 24,
+    "nome": "Luis Henrique",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 24,
+    "nome": "Lucca Emanuel Nascimento",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 24,
+    "nome": "Ágda Souza",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 24,
+    "nome": "Ingryd",
+    "cartela": 202505,
+    "vendedor": "Juliana"
+  },
+  {
+    "numero": 24,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus"
+  },
+  {
+    "numero": 24,
+    "nome": "Mikaren",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 25,
+    "nome": "Laís Nicolly",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 25,
+    "nome": "Francisca do Canindé",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 25,
+    "nome": "Ana Clara Dias",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 25,
+    "nome": "Juliana",
+    "cartela": 202505,
+    "vendedor": "Juliana"
+  },
+  {
+    "numero": 25,
+    "nome": "Matias",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 25,
+    "nome": "Amanda Iasmin",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 26,
+    "nome": "Davi Porto",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 26,
+    "nome": "Leonardo Cabedo",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 26,
+    "nome": "David Carvalho",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 26,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 26,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 27,
+    "nome": "Bernan Rodrigues",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 27,
+    "nome": "Ana Letícia Leal",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 27,
+    "nome": "Manuela",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 27,
+    "nome": "Ryan",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 27,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 28,
+    "nome": "Fábio Luz",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 28,
+    "nome": "Pedro Lucas Alves",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 28,
+    "nome": "Rebeca",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 28,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 28,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 29,
+    "nome": "Hugo",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 29,
+    "nome": "Wladimir Santana Ribeiro",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 29,
+    "nome": "Rebeca",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 29,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 29,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 30,
+    "nome": "Regina Rodrigues",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 30,
+    "nome": "Rebeca Santana Ribeiro",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 30,
+    "nome": "Mariana",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 30,
+    "nome": "Juliana",
+    "cartela": 202505,
+    "vendedor": "Juliana"
+  },
+  {
+    "numero": 30,
+    "nome": "Ryan",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 30,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 31,
+    "nome": "Pedro Lucas Alves",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 31,
+    "nome": "Rebeca",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 31,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 31,
+    "nome": "Ryan",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 31,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 32,
+    "nome": "Paulo Henrique",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 32,
+    "nome": "Gisele Gomes",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 32,
+    "nome": "Rebeca",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 32,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 32,
+    "nome": "Manuela Oliveira Soares",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 33,
+    "nome": "Gian navar",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 33,
+    "nome": "Adailton Silva",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 33,
+    "nome": "Lucca Emanuel Nascimento",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 33,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 33,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 34,
+    "nome": "Gian navar",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 34,
+    "nome": "Maycon César",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 34,
+    "nome": "Luis Henrique",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 34,
+    "nome": "Gabriel Vieira de Sousa França",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 34,
+    "nome": "Bruno",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 34,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 35,
+    "nome": "Emília Nunes",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 35,
+    "nome": "Emanuel Veloso",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 35,
+    "nome": "Rebeca Rodrigues",
+    "cartela": 202507,
+    "vendedor": "Rebeca Rodrigues"
+  },
+  {
+    "numero": 35,
+    "nome": "Rebeca Rodrigues do Nascimento",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 35,
+    "nome": "Luiz",
+    "cartela": 202505,
+    "vendedor": "Juliana"
+  },
+  {
+    "numero": 35,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 35,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 36,
+    "nome": "Emanuel Veloso",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 36,
+    "nome": "Fábio Luz",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 36,
+    "nome": "Gisele",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 36,
+    "nome": "David Carvalho",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 36,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 36,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 37,
+    "nome": "Victor Alexandre",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 37,
+    "nome": "Luís Carlos",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 37,
+    "nome": "Bernan Rodrigues",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 37,
+    "nome": "Pedro Lucas Alves",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 37,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 37,
+    "nome": "Aurea Nayara Vieira de Souza",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 38,
+    "nome": "Diego Oliveira",
+    "cartela": 202503,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 38,
+    "nome": "Maycon César",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 38,
+    "nome": "Ana Letícia Leal",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 38,
+    "nome": "Marcos",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 38,
+    "nome": "Amanda Iasmin",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 39,
+    "nome": "Diego Oliveira",
+    "cartela": 202502,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 39,
+    "nome": "Davi Porto",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 39,
+    "nome": "David Carvalho",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 39,
+    "nome": "Luiz",
+    "cartela": 202505,
+    "vendedor": "Juliana"
+  },
+  {
+    "numero": 39,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 39,
+    "nome": "Yasmin",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 40,
+    "nome": "Isac Brito Matos",
+    "cartela": 202504,
+    "vendedor": "Izaque Nicolas Vieira de Melo"
+  },
+  {
+    "numero": 40,
+    "nome": "Francisca do Canindé",
+    "cartela": 202507,
+    "vendedor": "Rebeca"
+  },
+  {
+    "numero": 40,
+    "nome": "Izaque Nicolas Vieira",
+    "cartela": 202508,
+    "vendedor": "Yasmim Santana Ribeiro"
+  },
+  {
+    "numero": 40,
+    "nome": "Maria Luiza Mendes de Sousa Silva",
+    "cartela": 202505,
+    "vendedor": "Juliana de Sousa Silva"
+  },
+  {
+    "numero": 40,
+    "nome": "Raimunda",
+    "cartela": 202506,
+    "vendedor": "Matheus Ribeiro"
+  },
+  {
+    "numero": 40,
+    "nome": "Ryan",
+    "cartela": 202502,
+    "vendedor": "Ryan Batista"
+  },
+  {
+    "numero": 41,
+    "nome": "João Eduardo Fonseca Pinheiro",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 41,
+    "nome": "Felipe Sales",
+    "cartela": 202503,
+    "vendedor": "Giovana Soares"
+  },
+  {
+    "numero": 41,
+    "nome": "Vinicius Lima",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 41,
+    "nome": "Hecton",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 41,
+    "nome": "Lidiane",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 41,
+    "nome": "Alan Victor",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 41,
+    "nome": "Poliana de Freitas",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 41,
+    "nome": "Carolinne",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 42,
+    "nome": "Jackeliny Ribeiro Fonseca",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 42,
+    "nome": "Vinicius Lima",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 42,
+    "nome": "Sônia",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 42,
+    "nome": "Thiago Lemos",
+    "cartela": 202503,
+    "vendedor": "Giovana Soares"
+  },
+  {
+    "numero": 42,
+    "nome": "Lidiane",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 42,
+    "nome": "Cecília Cibele",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 42,
+    "nome": "Ana Paula",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 42,
+    "nome": "Jeovane",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 43,
+    "nome": "Pedrina Moreira Ramos",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 43,
+    "nome": "Luimar",
+    "cartela": 202503,
+    "vendedor": "Giovana Soares"
+  },
+  {
+    "numero": 43,
+    "nome": "Samuel Oliveira",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 43,
+    "nome": "Clara",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 43,
+    "nome": "Maria Luisa",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 43,
+    "nome": "Beatriz Leal",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 43,
+    "nome": "Valeria",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 43,
+    "nome": "Airton",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 44,
+    "nome": "Ivan Pereira Guedes",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 44,
+    "nome": "Carlos Leonan",
+    "cartela": 202503,
+    "vendedor": "Giovana Soares"
+  },
+  {
+    "numero": 44,
+    "nome": "Samuel Oliveira",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 44,
+    "nome": "Kaliandra",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 44,
+    "nome": "Daguia",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 44,
+    "nome": "Rafael Leopoldino",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 44,
+    "nome": "Adma Maverick",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 44,
+    "nome": "Cristiano",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 45,
+    "nome": "Emília Nunes",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 45,
+    "nome": "Denylson Fábio Guedes",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 45,
+    "nome": "Alisson",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 45,
+    "nome": "Elô Freitas",
+    "cartela": 202503,
+    "vendedor": "Giovana Soares"
+  },
+  {
+    "numero": 45,
+    "nome": "Jackeline",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 45,
+    "nome": "Arlindo Lincoln",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 45,
+    "nome": "Felipe de Sousa",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 45,
+    "nome": "João Vitor",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 46,
+    "nome": "Kaio Henrique Guedes da Silva",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 46,
+    "nome": "Samuel Oliveira",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 46,
+    "nome": "João Pedro",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 46,
+    "nome": "Gaudêncio",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 46,
+    "nome": "Mikaren Maria de Sousa",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 46,
+    "nome": "Adma Maverick",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 46,
+    "nome": "Gisele",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 47,
+    "nome": "Jackeliny Ribeiro Fonseca",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 47,
+    "nome": "Tácila",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 47,
+    "nome": "José",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 47,
+    "nome": "Paulo Henrique",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 47,
+    "nome": "Alana",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 47,
+    "nome": "Julia",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 48,
+    "nome": "Maria Clara Amaral",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 48,
+    "nome": "Pablo Henrique Guedes",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 48,
+    "nome": "Sônia",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 48,
+    "nome": "José",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 48,
+    "nome": "Arlindo Lincoln",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 48,
+    "nome": "João Vitor",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 48,
+    "nome": "Thábita",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 49,
+    "nome": "Denisfabio Moreira Guedes",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 49,
+    "nome": "Sônia",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 49,
+    "nome": "Gaudencio",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 49,
+    "nome": "Sthefanny Havena",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 49,
+    "nome": "Alana",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 49,
+    "nome": "Pedro Arthur",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 50,
+    "nome": "Jackeliny Ribeiro Fonseca",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 50,
+    "nome": "Kaliandra Maria",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 50,
+    "nome": "Elô Freitas",
+    "cartela": 202503,
+    "vendedor": "Giovana Soares"
+  },
+  {
+    "numero": 50,
+    "nome": "Jackeline",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 50,
+    "nome": "Luis Felipe",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 50,
+    "nome": "Adma Maverick",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 50,
+    "nome": "Thaís Emanuelle",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 51,
+    "nome": "Luciane Silva de Sá",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 51,
+    "nome": "Maria Vitória",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 51,
+    "nome": "Gaudencio",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 51,
+    "nome": "James Dean",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 51,
+    "nome": "Anna Luiza Silva Santos",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 51,
+    "nome": "Helder Fonseca",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 51,
+    "nome": "Tainara",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 52,
+    "nome": "Ivan Pereira Guedes",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 52,
+    "nome": "Sônia",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 52,
+    "nome": "Daguia",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 52,
+    "nome": "Mateus de Sousa",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 52,
+    "nome": "Valentina Amorim",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 52,
+    "nome": "Helder Fonseca",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 52,
+    "nome": "Alex",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 53,
+    "nome": "Sofia Ramos Foque",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 53,
+    "nome": "Hecton",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 53,
+    "nome": "Gaudencio",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 53,
+    "nome": "Caio Ferreira",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 53,
+    "nome": "Thabita",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 53,
+    "nome": "Alan",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 54,
+    "nome": "Pedrina Moreira Ramos",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 54,
+    "nome": "Clara",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 54,
+    "nome": "Jesus",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 54,
+    "nome": "Rafael Leopoldino",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 54,
+    "nome": "Amanda",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 54,
+    "nome": "Gelson",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 55,
+    "nome": "Julia Cardoso Mota",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 55,
+    "nome": "Edson Rafael",
+    "cartela": 202503,
+    "vendedor": "Giovana Soares"
+  },
+  {
+    "numero": 55,
+    "nome": "Deilson Sousa",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 55,
+    "nome": "Jeovana",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 55,
+    "nome": "Yasmin",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 55,
+    "nome": "Adriele Lima",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 55,
+    "nome": "Daniele de Freitas",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 55,
+    "nome": "Cristiano",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 56,
+    "nome": "Camila Souza Messias",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 56,
+    "nome": "Gilfran",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 56,
+    "nome": "Thiago Lemos",
+    "cartela": 202503,
+    "vendedor": "Giovana Soares"
+  },
+  {
+    "numero": 56,
+    "nome": "Thiago Lemos",
+    "cartela": 202503,
+    "vendedor": "Giovana Soares"
+  },
+  {
+    "numero": 56,
+    "nome": "Maria Luisa",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 56,
+    "nome": "Paulo Henrique",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 56,
+    "nome": "Anna Luiza Silva Santos",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 56,
+    "nome": "Amanda",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 56,
+    "nome": "Arysa",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 57,
+    "nome": "Jackeliny Ribeiro Fonseca",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 57,
+    "nome": "Jhonny",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 57,
+    "nome": "Jesus",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 57,
+    "nome": "James Dean",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 57,
+    "nome": "Amanda",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 57,
+    "nome": "Thaís",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 58,
+    "nome": "João Eduardo Fonseca Pinheiro",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 58,
+    "nome": "Vinicius Lima",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 58,
+    "nome": "Sônia",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 58,
+    "nome": "Lidiane",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 58,
+    "nome": "Mirian Costa",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 58,
+    "nome": "Ana Paula",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 58,
+    "nome": "Alex",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 59,
+    "nome": "Jackeliny Ribeiro Fonseca",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 59,
+    "nome": "Vinicius Lima",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 59,
+    "nome": "Jhonny",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 59,
+    "nome": "Lidiane",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 59,
+    "nome": "Arlindo Lincoln",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 59,
+    "nome": "Poliana de Freitas",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 59,
+    "nome": "Welerson",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 60,
+    "nome": "Maria Clara Amaral",
+    "cartela": 202502,
+    "vendedor": "Diogo Bruno"
+  },
+  {
+    "numero": 60,
+    "nome": "Aurilene Araújo da Costa",
+    "cartela": 202506,
+    "vendedor": "Pedro Augusto Ribeiro Fonseca Guedes"
+  },
+  {
+    "numero": 60,
+    "nome": "Kaliandra Maria",
+    "cartela": 202505,
+    "vendedor": "Kassandra Maria"
+  },
+  {
+    "numero": 60,
+    "nome": "Yasmin",
+    "cartela": 202507,
+    "vendedor": "Moisés"
+  },
+  {
+    "numero": 60,
+    "nome": "Alan Victor",
+    "cartela": 202504,
+    "vendedor": "James Dean"
+  },
+  {
+    "numero": 60,
+    "nome": "Felipe de Sousa",
+    "cartela": 202501,
+    "vendedor": "Amanda Iasmin Sousa Nascimento"
+  },
+  {
+    "numero": 60,
+    "nome": "Mateus Rodrigues",
+    "cartela": 202508,
+    "vendedor": "Yasmin da Silva Figueiredo"
+  },
+  {
+    "numero": 61,
+    "nome": "Cíntia de Sousa Oliveira",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 61,
+    "nome": "Camila Ramos",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 61,
+    "nome": "MARCOS AURELIO",
+    "cartela": 202501,
+    "vendedor": "BLAIRON GONÇALVES DE SOUSA"
+  },
+  {
+    "numero": 61,
+    "nome": "Igor Davi",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 61,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 61,
+    "nome": "Charles",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 62,
+    "nome": "Matheus Henrique dos Santos Zulian",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 62,
+    "nome": "Camila Ramos",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 62,
+    "nome": "MARCOS AURELIO",
+    "cartela": 202501,
+    "vendedor": "BLAIRON GONÇALVES DE SOUSA"
+  },
+  {
+    "numero": 62,
+    "nome": "Edilene",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 62,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 62,
+    "nome": "Manoel",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 63,
+    "nome": "Laércio da Silva Brito",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 63,
+    "nome": "Francisnalva Alves Cavalcante",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 63,
+    "nome": "Caio Ferreira",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 63,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 63,
+    "nome": "Ricardo",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 64,
+    "nome": "Laércio da Silva Brito",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 64,
+    "nome": "Francisnalva Alves Cavalcante",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 64,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 64,
+    "nome": "Ricardo",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 65,
+    "nome": "João de Oliveira Damasceno Junyor",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 65,
+    "nome": "Luan Jorge Pereira Rocha Leite",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 65,
+    "nome": "MARTA",
+    "cartela": 202501,
+    "vendedor": "BLAIRON GONÇALVES DE SOUSA"
+  },
+  {
+    "numero": 65,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 65,
+    "nome": "Ricardo",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 66,
+    "nome": "Pedro Cardozo de Oliveira",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 66,
+    "nome": "José Carlos De Oliveira Cardoso Da Silva",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 66,
+    "nome": "João Vytor",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 66,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 66,
+    "nome": "Ricardo",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 67,
+    "nome": "Matheus Henrique dos Santos Zulian",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 67,
+    "nome": "Rafael Arthur Moura Cavalcante",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 67,
+    "nome": "KASSIA",
+    "cartela": 202501,
+    "vendedor": "BLAIRON GONÇALVES DE SOUSA"
+  },
+  {
+    "numero": 67,
+    "nome": "Rafael Castro",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 67,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 67,
+    "nome": "Gabriel",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 68,
+    "nome": "Cíntia de Sousa Oliveira",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 68,
+    "nome": "Maria da Guia Alves de Assis Cardoso",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 68,
+    "nome": "GEORGE MADSON",
+    "cartela": 202501,
+    "vendedor": "BLAIRON GONÇALVES DE SOUSA"
+  },
+  {
+    "numero": 68,
+    "nome": "Carol Amaro",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis de Souza Silva Ferreira"
+  },
+  {
+    "numero": 68,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 68,
+    "nome": "Gabriel",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 69,
+    "nome": "Joaquim Emanuel",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 69,
+    "nome": "Aluana Moreira Silva",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 69,
+    "nome": "GEORGE MADSON",
+    "cartela": 202501,
+    "vendedor": "BLAIRON GONÇALVES DE SOUSA"
+  },
+  {
+    "numero": 69,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 69,
+    "nome": "Juliana Lessa",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 69,
+    "nome": "Gabriel",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 70,
+    "nome": "Joaquim Emanuel",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 70,
+    "nome": "Maria da Guia Alves de Assis Cardoso",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 70,
+    "nome": "Matheus Ferreira",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 70,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 70,
+    "nome": "Gabriel",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 71,
+    "nome": "Pedro Cardozo de Oliveira",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 71,
+    "nome": "Francisco Pereira dos Santos",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 71,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 71,
+    "nome": "Jadelma",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 72,
+    "nome": "Mary Damasceno",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 72,
+    "nome": "Francisco Pereira dos Santos",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 72,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 72,
+    "nome": "Jadelma",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 73,
+    "nome": "Matheus Henrique dos Santos Zulian",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 73,
+    "nome": "Franceline Pereira da Rocha",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 73,
+    "nome": "Maria Virginia",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 73,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 73,
+    "nome": "Jadelma",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 74,
+    "nome": "Matheus Henrique dos Santos Zulian",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 74,
+    "nome": "Sebasthian",
+    "cartela": 202504,
+    "vendedor": "Gilvan"
+  },
+  {
+    "numero": 74,
+    "nome": "Franceline Pereira da Rocha",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 74,
+    "nome": "Maria Virginia",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 74,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 74,
+    "nome": "Jadelma",
+    "cartela": 202502,
+    "vendedor": "Eduardo"
+  },
+  {
+    "numero": 75,
+    "nome": "Mary Damasceno",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 75,
+    "nome": "José Carlos De Oliveira Cardoso Da Silva",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 75,
+    "nome": "Maria Virgenia",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 75,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 76,
+    "nome": "Priscila Freitas Martins",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 76,
+    "nome": "Francisnalva Alves Cavalcante",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 76,
+    "nome": "Matheus Borges",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 76,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 77,
+    "nome": "João de Oliveira Damasceno Junyor",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 77,
+    "nome": "Luan Jorge Pereira Rocha Leite",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 77,
+    "nome": "PAULA",
+    "cartela": 202501,
+    "vendedor": "BLAIRON GONÇALVES DE SOUSA"
+  },
+  {
+    "numero": 77,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 78,
+    "nome": "Francisca Keila de Souza Oliveira",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 78,
+    "nome": "Francisnalva Alves Cavalcante",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 78,
+    "nome": "KELVEN PETTER",
+    "cartela": 202501,
+    "vendedor": "BLAIRON GONÇALVES DE SOUSA"
+  },
+  {
+    "numero": 78,
+    "nome": "Rafael Castro",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 78,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 79,
+    "nome": "Amanda Oliveira",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 79,
+    "nome": "Aluana Moreira Silva",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 79,
+    "nome": "Andre",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 79,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 80,
+    "nome": "Amanda Oliveira",
+    "cartela": 202504,
+    "vendedor": "João Pedro de Oliveira Damasceno"
+  },
+  {
+    "numero": 80,
+    "nome": "Mikaren Maria Silva de Souza",
+    "cartela": 202506,
+    "vendedor": "Pedro Lucas Alves de Assis Cardoso"
+  },
+  {
+    "numero": 80,
+    "nome": "PAULA",
+    "cartela": 202501,
+    "vendedor": "BLAIRON GONÇALVES DE SOUSA"
+  },
+  {
+    "numero": 80,
+    "nome": "Carol Amaro",
+    "cartela": 202503,
+    "vendedor": "Guilherme Reis"
+  },
+  {
+    "numero": 80,
+    "nome": "KEILLANY SILVA",
+    "cartela": 202507,
+    "vendedor": "RENAN SILVA"
+  },
+  {
+    "numero": 81,
+    "nome": "Urcilene",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 81,
+    "nome": "Izaque Nicolas Vieira de Melo",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 81,
+    "nome": "Lizandro",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 81,
+    "nome": "Ingrid Daiane",
+    "cartela": 202504,
+    "vendedor": "José Henrique Ferreira Benvindo"
+  },
+  {
+    "numero": 81,
+    "nome": "Adeilton Sousa",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 81,
+    "nome": "Luma",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 81,
+    "nome": "Priscila",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 82,
+    "nome": "Urcilene",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 82,
+    "nome": "Renan",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 82,
+    "nome": "João batista",
+    "cartela": 202504,
+    "vendedor": "José henrique Ferreira"
+  },
+  {
+    "numero": 82,
+    "nome": "Luísa Vieira",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 82,
+    "nome": "Elba de Castro Brito",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 82,
+    "nome": "Maria Vitória",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 82,
+    "nome": "Priscila",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 83,
+    "nome": "Urcilene",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 83,
+    "nome": "Jair",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 83,
+    "nome": "Maria Joani",
+    "cartela": 202504,
+    "vendedor": "José Henrique Ferreira"
+  },
+  {
+    "numero": 83,
+    "nome": "Maria Daguia",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 83,
+    "nome": "Elba de Castro Brito",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 83,
+    "nome": "Tayllane",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 83,
+    "nome": "Jociler",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 84,
+    "nome": "Urcilene",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 84,
+    "nome": "Henrique",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 84,
+    "nome": "Daniela Monteiro",
+    "cartela": 202504,
+    "vendedor": "José henrique Ferreira Benvindo"
+  },
+  {
+    "numero": 84,
+    "nome": "Bruno Pessoa",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 84,
+    "nome": "Elba de Castro Brito",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 84,
+    "nome": "Jociler",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 84,
+    "nome": "Franklin",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 85,
+    "nome": "Urcilene",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 85,
+    "nome": "Thalia",
+    "cartela": 202504,
+    "vendedor": "José Henrique Ferreira Benvindo"
+  },
+  {
+    "numero": 85,
+    "nome": "Adeilton Sousa",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 85,
+    "nome": "Elba de Castro Brito",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 85,
+    "nome": "Joseane",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 86,
+    "nome": "Urcilene",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 86,
+    "nome": "Fabio",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 86,
+    "nome": "Vitória Cristina",
+    "cartela": 202504,
+    "vendedor": "José henrique Ferreira Benvindo"
+  },
+  {
+    "numero": 86,
+    "nome": "Luísa Vieira",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 86,
+    "nome": "Elba de Castro Brito",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 86,
+    "nome": "Pablo",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 86,
+    "nome": "Franklin",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 87,
+    "nome": "Quezia Damas",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 87,
+    "nome": "Maria Flaviana",
+    "cartela": 202504,
+    "vendedor": "José henrique Ferreira"
+  },
+  {
+    "numero": 87,
+    "nome": "Maria Flaviana",
+    "cartela": 202504,
+    "vendedor": "Jose Henrique Ferreira"
+  },
+  {
+    "numero": 87,
+    "nome": "Bruno Pessoa",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 87,
+    "nome": "Elba de Castro Brito",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 87,
+    "nome": "Tayllane",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 87,
+    "nome": "Pablo",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 88,
+    "nome": "Ulga",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 88,
+    "nome": "Renan",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 88,
+    "nome": "Kaline Delmondes",
+    "cartela": 202504,
+    "vendedor": "Jose HENRIQUE FERREIRA"
+  },
+  {
+    "numero": 88,
+    "nome": "Maria Daguia",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 88,
+    "nome": "Elba de Castro Brito",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 88,
+    "nome": "Ivanilde",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 88,
+    "nome": "Franklin",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 89,
+    "nome": "Keila",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 89,
+    "nome": "Naelly",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 89,
+    "nome": "JANAIKA",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA"
+  },
+  {
+    "numero": 89,
+    "nome": "Adeilton Sousa",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 89,
+    "nome": "Elba de Castro Brito",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 89,
+    "nome": "Ivanilde",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 89,
+    "nome": "Franklin",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 90,
+    "nome": "Ulga",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 90,
+    "nome": "Renan",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 90,
+    "nome": "DIRCIANE",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 90,
+    "nome": "Diogo Vieira",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 90,
+    "nome": "Elba de Castro Brito",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 90,
+    "nome": "Rosina",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 90,
+    "nome": "Franklin",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 91,
+    "nome": "Ulgo",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 91,
+    "nome": "Lizandro",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 91,
+    "nome": "SULAMITA",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 91,
+    "nome": "Adeilton Sousa",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 91,
+    "nome": "Jesiel Ribeiro de Matos",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 91,
+    "nome": "Franklin",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 92,
+    "nome": "João Pedro Damasceno",
+    "cartela": 202506,
+    "vendedor": "Priscila"
+  },
+  {
+    "numero": 92,
+    "nome": "Ariel Ramos",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 92,
+    "nome": "Jesiel Ribeiro de Matos",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 92,
+    "nome": "Rosina",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 92,
+    "nome": "Franklin",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 93,
+    "nome": "Naelly",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 93,
+    "nome": "João Pedro Damasceno",
+    "cartela": 202506,
+    "vendedor": "Priscila"
+  },
+  {
+    "numero": 93,
+    "nome": "JANAIKA",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 93,
+    "nome": "Diogo Vieira",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 93,
+    "nome": "Jesiel Ribeiro de Matos",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 93,
+    "nome": "Tayllane",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 93,
+    "nome": "Fabrício",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 94,
+    "nome": "Luiz Eduardo",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 94,
+    "nome": "Fábio",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 94,
+    "nome": "JOAO BATISTA",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 94,
+    "nome": "Maria da Paixão",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 94,
+    "nome": "Jesiel Ribeiro de Matos",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 94,
+    "nome": "Joseane",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 95,
+    "nome": "Emilia",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 95,
+    "nome": "Jair",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 95,
+    "nome": "BRENDA RAFAELA",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 95,
+    "nome": "Dayane Ramos",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 95,
+    "nome": "Kelson",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda Moreira da Silva"
+  },
+  {
+    "numero": 95,
+    "nome": "Luiz",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 96,
+    "nome": "Renan",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 96,
+    "nome": "KALINE DELMONDES",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 96,
+    "nome": "Maria da Paixão",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 96,
+    "nome": "Jesiel Ribeiro de Matos",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 96,
+    "nome": "Taiani",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 97,
+    "nome": "Ravena",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 97,
+    "nome": "Ulga",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 97,
+    "nome": "Luis Carlos",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 97,
+    "nome": "Maria Eduarda",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 97,
+    "nome": "Jesiel Ribeiro de Matos",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 97,
+    "nome": "Luís Carlos",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda Moreira"
+  },
+  {
+    "numero": 98,
+    "nome": "Ian",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 98,
+    "nome": "Kelson",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 98,
+    "nome": "ESTEFANY",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 98,
+    "nome": "BRENDA RAFAELA",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 98,
+    "nome": "Luísa Vieira",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 98,
+    "nome": "Jesiel Ribeiro de Matos",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 98,
+    "nome": "Jesiel Ribeiro de Matos",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 98,
+    "nome": "Franklin",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 99,
+    "nome": "Eduardo",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 99,
+    "nome": "Henrique",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 99,
+    "nome": "DIRCIANE",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 99,
+    "nome": "Luiz Guarita",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 99,
+    "nome": "Jesiel Ribeiro de Matos",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 99,
+    "nome": "Luiz",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  },
+  {
+    "numero": 99,
+    "nome": "Franklin",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 100,
+    "nome": "Izaque Nicolas Vieira de Melo",
+    "cartela": 202503,
+    "vendedor": "Isac Brito Matos"
+  },
+  {
+    "numero": 100,
+    "nome": "Luiz Eduardo",
+    "cartela": 202506,
+    "vendedor": "Priscila Freitas"
+  },
+  {
+    "numero": 100,
+    "nome": "Renan",
+    "cartela": 202501,
+    "vendedor": "Cibelly"
+  },
+  {
+    "numero": 100,
+    "nome": "DIRCIANE",
+    "cartela": 202504,
+    "vendedor": "JOSE HENRIQUE FERREIRA BENVINDO"
+  },
+  {
+    "numero": 100,
+    "nome": "Luísa Vieira",
+    "cartela": 202507,
+    "vendedor": "Sabrina Laís"
+  },
+  {
+    "numero": 100,
+    "nome": "Tayllane",
+    "cartela": 202505,
+    "vendedor": "Maria Eduarda"
+  },
+  {
+    "numero": 100,
+    "nome": "Davi Nunes",
+    "cartela": 202508,
+    "vendedor": "Everton"
+  }
+]

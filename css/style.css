@@ -28,11 +28,69 @@ body {
   padding-left: 120px;
 }
 
+.celular-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
 .celular-container img {
   width: 450px;
   height: auto;
 }
 
+/* Tela do celular com lista animada */
+.tela-celular {
+  position: absolute;
+  top: 70px;
+  left: 75px;
+  width: 300px;
+  height: 647px;
+  background: #000;
+  border-radius: 36px;
+  overflow: hidden;
+  z-index: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  /* Ajustar padding para centralizar melhor */
+  padding: 10px 15px;
+}
+
+.lista-animada {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  color: #00ff00;
+  font-family: "Sora", monospace;
+  font-size: 14px;
+  line-height: 2.2;
+  padding: 20px 10px;
+  /* Animação muito mais lenta - 600 segundos */
+  animation: scrollLista 600s linear infinite;
+  white-space: nowrap;
+  text-align: center;
+  /* Garantir que apareça imediatamente */
+  opacity: 1 !important;
+  visibility: visible !important;
+  display: block !important;
+  transform: translateY(0);
+}
+
+@keyframes scrollLista {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.participante-item {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+}
 
 .celular-container h1 {
   position: relative;
@@ -113,7 +171,7 @@ body {
 
 .resultado-sorteio {
   padding: 20px;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
   color: #fff;
   font-size: 1.2rem;
 }
@@ -125,7 +183,6 @@ body {
   margin-bottom: 10px;
   padding-bottom: 20px;
 }
-
 
 .cobrinha {
   position: absolute;
@@ -139,12 +196,11 @@ body {
 .cobrinha rect {
   fill: none;
   stroke: #00ff7f;
-  stroke-width: 6; 
-  stroke-dasharray: 150 1050; 
+  stroke-width: 6;
+  stroke-dasharray: 150 1050;
   stroke-dashoffset: 0;
   animation: moverCobrinha 3s linear infinite;
   stroke-linecap: round;
-
 }
 
 @keyframes moverCobrinha {
@@ -152,7 +208,7 @@ body {
     stroke-dashoffset: 0;
   }
   100% {
-    stroke-dashoffset: -1200; 
+    stroke-dashoffset: -1200;
   }
 }
 
@@ -177,145 +233,128 @@ h2 {
   color: #fff;
 }
 
-
 .form-content {
-    width: 100%;
-    max-width: 500px;
-    background-color: transparent;
-    padding: 40px;
-    border-radius: 16px;
-    text-align: left;
-  }
-  
-  .form-content h2 {
-    font-size: 28px;
-    margin-bottom: 16px;
-    color: #fff;
-  }
-  
-  .instructions {
-    font-size: 16px;
-    color: #a0a0a0;
-    margin-bottom: 32px;
-    line-height: 1.5;
-  }
-  
-  .input-section {
-    display: flex;
-    justify-content: left;
-    gap: 16px;
-    margin-bottom: 24px;
-    flex-wrap: wrap;
-  }
-  
-  .input-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .input-box label {
-    font-size: 14px;
-    font-weight: 600;
-    color: #a0a0a0;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-  
-  .input-box input {
-    width: 80px;
-    height: 50px;
-    background: #111012;
-    border: none;
-    border-radius: 8px;
-    padding: 10px;
-    font-size: 20px;
-    color: white;
-    text-align: center;
-  }
-  
-  .toggle-container {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 32px;
-  }
-  
-  .toggle-checkbox {
-    display: none;
-  }
-  
-  .toggle-label {
-    position: relative;
-    display: inline-block;
-    width: 30px;
-    height: 20px;
-    background: linear-gradient(91deg, #95E086 0%, #006E3B 98.93%);    
-    border-radius: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  .toggle-label::after {
-    content: "";
-    position: absolute;
-    top: 3px;
-    left: 3px;
-    width: 14px;
-    height: 14px;
-    background: white;
-    border-radius: 50%;
-    transition: transform 0.3s;
-  }
+  width: 100%;
+  max-width: 500px;
+  background-color: transparent;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: left;
+}
 
-  .toggle-checkbox:checked + .toggle-label {
-    background-color: #4caf50;
-  }
-  
-  .toggle-checkbox:checked + .toggle-label::after {
-    transform: translateX(10px);
-  }
-  
-  .toggle-text {
-    color: #a0a0a0;
-    font-size: 16px;
-  }
-  
+.form-content h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.instructions {
+  font-size: 16px;
+  color: #a0a0a0;
+  margin-bottom: 32px;
+  line-height: 1.5;
+}
+
+.input-section {
+  display: flex;
+  justify-content: left;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-box label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #a0a0a0;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.input-box input {
+  width: 80px;
+  height: 50px;
+  background: #111012;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+
+.toggle-checkbox {
+  display: none;
+}
+
+.toggle-label {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  background: linear-gradient(91deg, #95e086 0%, #006e3b 98.93%);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-label::after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 14px;
+  height: 14px;
+  background: white;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #4caf50;
+}
+
+.toggle-checkbox:checked + .toggle-label::after {
+  transform: translateX(10px);
+}
+
+.toggle-text {
+  color: #a0a0a0;
+  font-size: 16px;
+}
+
 .draw-button {
-    width: 385px;
-    height: 56px;
-    background: #4caf50;
-    color: white;
-    border: none;
-    padding: 16px;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.3s, background 0.3s;
+  width: 385px;
+  height: 56px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
 }
 
 .draw-button:hover {
-    transform: scale(1.1);
-    background: #45a049;
+  transform: scale(1.05);
+  background: #45a049;
 }
-  
-  @media (max-width: 768px) {
-    .input-section {
-      flex-direction: column;
-    }
-  
-    .input-box input {
-      width: 100%;
-      max-width: 100%;
-    }
-  
-    .draw-button {
-      width: 100%;
-    }
-  }
-  
-  
+
 @media (max-width: 768px) {
   .header img {
     left: 20px;
@@ -327,6 +366,23 @@ h2 {
     padding-left: 20px;
   }
 
+  .celular-container img {
+    width: 300px;
+  }
+
+  .tela-celular {
+    top: 93px;
+    left: 77px;
+    width: 223px;
+    height: 476px;
+  }
+
+  .lista-animada {
+    font-size: 11px;
+    line-height: 1.8;
+    padding: 15px 10px;
+  }
+
   .celular-container h1 {
     top: 0;
     left: 0;
@@ -335,15 +391,191 @@ h2 {
   }
 
   .celular-container span {
-    font-size: 60px;
+    font-size: 44px;
   }
 
   .main-container {
     padding: 20px;
     justify-content: center;
+    margin-top: -400px;
   }
 
-  .input-grid {
-    grid-template-columns: 1fr;
+  .quadro-container {
+    top: -400px;
+    right: -20px;
+    transform: scale(0.8);
+  }
+
+  .input-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-box input {
+    width: 100%;
+    max-width: 100px;
+  }
+
+  .draw-button {
+    width: 100%;
+    max-width: 300px;
   }
 }
+
+/* Modal de resultados */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.modal-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+  border: 2px solid #00ff00;
+  box-shadow: 0 20px 40px rgba(0, 255, 0, 0.2);
+  transform: scale(0.7);
+  transition: transform 0.3s ease;
+}
+
+.modal-overlay.show .modal-content {
+  transform: scale(1);
+}
+
+.modal-title {
+  font-size: 28px;
+  color: #00ff00;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.modal-numbers {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.modal-number {
+  background: linear-gradient(135deg, #00ff00 0%, #00cc00 100%);
+  color: #000;
+  font-size: 48px;
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 20px rgba(0, 255, 0, 0.3);
+  animation: pulseNumber 2s ease-in-out infinite;
+}
+
+@keyframes pulseNumber {
+  0%,
+  100% {
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0, 255, 0, 0.3);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 255, 0, 0.5);
+  }
+}
+
+.modal-info {
+  color: #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.modal-close {
+  background: #00ff00;
+  color: #000;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.modal-close:hover {
+  background: #00cc00;
+  transform: translateY(-2px);
+}
+
+/* Estilos para o modal melhorado */
+.modal-winner {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 15px 0;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.modal-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+
+.modal-name {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 8px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.modal-cartela {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 400;
+}
+
+/* Animação para números aparecendo um de cada vez */
+.numero-aparecendo {
+  animation: aparecer 0.8s ease-out;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+

@@ -6,6 +6,7 @@
     <title>INOVASorte</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="icon" href="./img/logo.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -13,23 +14,32 @@
             <img src="./img/logo.png" alt="Logo INOVAIFPI" class="logo"/>
         </div>
     </header>
+    
     <div class="celular-container">
-  <img src="./img/celular.svg" alt="celular" class="celular" />
-  
-  <h1>Sorteador <span><br>de números</span></h1>
-</div>
-  <div class="quadro-container">
-    <div class="quadro">
-      <div id="resultado-sorteio" class="resultado-container">
-        <!-- Resultado aparece aqui! -->
-      </div>
+        <div class="celular-wrapper">
+            <img src="./img/celular.svg" alt="celular" class="celular" />
+            <!-- Lista animada de participantes dentro da tela do celular -->
+            <div class="tela-celular">
+                <div id="lista-participantes" class="lista-animada">
+                    <!-- A lista será preenchida via JavaScript -->
+                </div>
+            </div>
+        </div>
+        <h1>Sorteador <span><br>de números</span></h1>
     </div>
     
-    <svg class="cobrinha" viewBox="0 0 500 350" preserveAspectRatio="none">
-      <rect x="5" y="5" width="490" height="340" rx="40" ry="40" />
-    </svg>
-  </div>
-  
+    <div class="quadro-container">
+        <div class="quadro">
+            <div id="resultado-sorteio" class="resultado-container">
+                <!-- Resultado aparece aqui! -->
+            </div>
+        </div>
+        
+        <svg class="cobrinha" viewBox="0 0 500 350" preserveAspectRatio="none">
+            <rect x="5" y="5" width="490" height="340" rx="40" ry="40" />
+        </svg>
+    </div>
+    
     <main>
         <div class="main-container">
             <div class="form-content">
@@ -37,36 +47,49 @@
                 <p class="instructions">Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. <br> É rápido e fácil!</p>
                 
                 <div class="input-section">
-                  <div class="input-box">
-                    <label for="quantity">NÚMEROS</label>
-                    <input type="number" id="quantity" value="2" />
-                  </div>
-              
-
-                  <div class="input-box">
-                    <label for="min">DE</label>
-                    <input type="number" id="min" value="1" />
-                  </div>
-              
-
-                  <div class="input-box">
-                    <label for="max">ATÉ</label>
-                    <input type="number" id="max" value="100" />
-                  </div>
+                    <div class="input-box">
+                        <label for="quantity">NÚMEROS</label>
+                        <input type="number" id="quantity" value="2" />
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="min">DE</label>
+                        <input type="number" id="min" value="1" />
+                    </div>
+                    
+                    <div class="input-box">
+                        <label for="max">ATÉ</label>
+                        <input type="number" id="max" value="100" />
+                    </div>
                 </div>
-              
-
+                
                 <div class="toggle-container">
                     <input type="checkbox" id="unique" class="toggle-checkbox" />
                     <label for="unique" class="toggle-label"></label>
                     <span class="toggle-text">Não repetir número</span>
-                  </div>
-                  
-
+                </div>
+                
                 <button class="draw-button" onclick="sortear()">SORTEAR</button>                
             </div>
         </div>
     </main>
+    
+    <script src="./js/script.js"></script>
 </body>
-<script src="./js/script.js"></script>
 </html>
+
+
+<!-- Modal de resultados -->
+<div id="modal-resultados" class="modal-overlay">
+  <div class="modal-content">
+    <h2 class="modal-title">Números Sorteados!</h2>
+    <div id="modal-numbers" class="modal-numbers">
+      <!-- Números serão inseridos aqui -->
+    </div>
+    <div class="modal-info">
+      Parabéns aos ganhadores!
+    </div>
+    <button class="modal-close" onclick="fecharModal()">Fechar</button>
+  </div>
+</div>
+
