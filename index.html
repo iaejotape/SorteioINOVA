@@ -1,96 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INOVASorte</title>
+    <meta
+      name="description"
+      content="Sistema de sorteio INOVAIFPI - Sorteie números de forma rápida e profissional"
+    />
+    <title>INOVASorte - Sorteador Profissional</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <link rel="icon" href="./img/logo.png" type="image/x-icon">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./img/logo.png" type="image/x-icon" />
+  </head>
+  <body>
     <!-- DEV JOTAPÊ -->
     <header>
-        <div class="header">
-            <img src="./img/logo.png" alt="Logo INOVAIFPI" class="logo"/>
-        </div>
+      <div class="header">
+        <img src="./img/logo.png" alt="Logo INOVAIFPI" class="logo" />
+      </div>
     </header>
-    
+
     <div class="celular-container">
-        <div class="celular-wrapper">
-            <img src="./img/celular.svg" alt="celular" class="celular" />
-            <!-- Lista animada de participantes dentro da tela do celular -->
-            <div class="tela-celular">
-                <div id="lista-participantes" class="lista-animada">
-                    <!-- A lista será preenchida via JavaScript -->
-                </div>
-            </div>
+      <div class="celular-wrapper">
+        <img src="./img/celular.svg" alt="celular" class="celular" />
+        <!-- Lista animada de participantes dentro da tela do celular -->
+        <div class="tela-celular">
+          <div id="lista-participantes" class="lista-animada">
+            <!-- A lista será preenchida via JavaScript -->
+          </div>
         </div>
-        <h1>Sorteador <span><br>de números</span></h1>
+      </div>
+      <h1>
+        Sorteador <span><br />de números</span>
+      </h1>
     </div>
-    
+
     <div class="quadro-container">
-        <div class="quadro">
-            <div id="resultado-sorteio" class="resultado-container">
-                <!-- Resultado aparece aqui! -->
-            </div>
+      <div class="quadro">
+        <div
+          id="resultado-sorteio"
+          class="resultado-container"
+          role="status"
+          aria-live="polite"
+        >
+          <!-- Resultado aparece aqui -->
         </div>
-        
-        <svg class="cobrinha" viewBox="0 0 500 350" preserveAspectRatio="none">
-            <rect x="5" y="5" width="490" height="340" rx="40" ry="40" />
-        </svg>
+      </div>
+
+      <svg
+        class="cobrinha"
+        viewBox="0 0 500 350"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <rect x="5" y="5" width="490" height="340" rx="40" ry="40" />
+      </svg>
     </div>
-    
+
     <main>
-        <div class="main-container">
-            <div class="form-content">
-                <h2>QUERO SORTEAR:</h2>
-                <p class="instructions">Defina o intervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. <br> É rápido e fácil!</p>
-                
-                <div class="input-section">
-                    <div class="input-box">
-                        <label for="quantity">NÚMEROS</label>
-                        <input type="number" id="quantity" value="2" />
-                    </div>
-                    
-                    <div class="input-box">
-                        <label for="min">DE</label>
-                        <input type="number" id="min" value="1" />
-                    </div>
-                    
-                    <div class="input-box">
-                        <label for="max">ATÉ</label>
-                        <input type="number" id="max" value="100" />
-                    </div>
-                </div>
-                
-                <div class="toggle-container">
-                    <input type="checkbox" id="unique" class="toggle-checkbox" />
-                    <label for="unique" class="toggle-label"></label>
-                    <span class="toggle-text">Não repetir número</span>
-                </div>
-                
-                <button class="draw-button" onclick="sortear()">SORTEAR</button>                
+      <div class="main-container">
+        <div class="form-content">
+          <h2>QUERO SORTEAR:</h2>
+          <p class="instructions">
+            Defina o intervalo e a quantidade de números, clique em "Sortear" e
+            veja os resultados na tela. <br />
+            É rápido e fácil!
+          </p>
+
+          <div class="input-section">
+            <div class="input-box">
+              <label for="quantity">NÚMEROS</label>
+              <input
+                type="number"
+                id="quantity"
+                value="2"
+                min="1"
+                aria-label="Quantidade de números a sortear"
+              />
             </div>
+
+            <div class="input-box">
+              <label for="min">DE</label>
+              <input
+                type="number"
+                id="min"
+                value="1"
+                min="1"
+                aria-label="Número inicial do intervalo"
+              />
+            </div>
+
+            <div class="input-box">
+              <label for="max">ATÉ</label>
+              <input
+                type="number"
+                id="max"
+                value="100"
+                min="1"
+                aria-label="Número final do intervalo"
+              />
+            </div>
+          </div>
+
+          <div
+            class="toggle-container"
+            onclick="document.getElementById('unique').click()"
+          >
+            <input
+              type="checkbox"
+              id="unique"
+              class="toggle-checkbox"
+              aria-label="Não repetir números sorteados"
+            />
+            <label for="unique" class="toggle-label" aria-hidden="true"></label>
+            <span class="toggle-text">Não repetir número</span>
+          </div>
+
+          <button
+            class="draw-button"
+            onclick="sortear()"
+            aria-label="Iniciar sorteio"
+          >
+            SORTEAR
+          </button>
         </div>
+      </div>
     </main>
-    
+
     <script src="./js/script.js"></script>
-</body>
+  </body>
 </html>
 
-
 <!-- Modal de resultados -->
-<div id="modal-resultados" class="modal-overlay">
+<div
+  id="modal-resultados"
+  class="modal-overlay"
+  role="dialog"
+  aria-labelledby="modal-title"
+  aria-modal="true"
+>
   <div class="modal-content">
-    <h2 class="modal-title">Números Sorteados!</h2>
+    <h2 id="modal-title" class="modal-title">Números Sorteados!</h2>
     <div id="modal-numbers" class="modal-numbers">
-      <!-- Números serão inseridos aqui -->
+      <!-- Números aparecem aqui -->
     </div>
-    <div class="modal-info">
-      Parabéns aos ganhadores!
-    </div>
-    <button class="modal-close" onclick="fecharModal()">Fechar</button>
+    <div class="modal-info">Parabéns aos ganhadores!</div>
+    <button
+      class="modal-close"
+      onclick="fecharModal()"
+      aria-label="Fechar modal de resultados"
+    >
+      Fechar
+    </button>
   </div>
 </div>
-
