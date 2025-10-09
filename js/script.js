@@ -14,7 +14,11 @@ function criarListaAnimada() {
     // Lista de exemplo enquanto carrega
     let listaExemplo = "";
     for (let i = 1; i <= 100; i++) {
-      listaExemplo += `<div class="participante-item">${i} - Participante ${i}</div>`;
+      listaExemplo += `
+        <div class="participante-item">
+          <span class="participante-numero">${i}</span>
+          <span class="participante-nome">Participante ${i}</span>
+        </div>`;
     }
     listaContainer.innerHTML = listaExemplo + listaExemplo + listaExemplo;
   } else {
@@ -24,7 +28,11 @@ function criarListaAnimada() {
 
     let listaHTML = "";
     participantesOrdenados.forEach((participante) => {
-      listaHTML += `<div class="participante-item">${participante.numero} - ${participante.nome}</div>`;
+      listaHTML += `
+        <div class="participante-item">
+          <span class="participante-numero">${participante.numero}</span>
+          <span class="participante-nome">${participante.nome}</span>
+        </div>`;
     });
 
     // Triplicar para efeito contínuo
@@ -116,9 +124,9 @@ function iniciarContagem(callback) {
   contadorDiv.classList.add("contador");
   contadorDiv.style.fontSize = "80px";
   contadorDiv.style.fontWeight = "bold";
-  contadorDiv.style.color = "#00ff00";
+  contadorDiv.style.color = "#408ea3";
   contadorDiv.style.textAlign = "center";
-  contadorDiv.style.textShadow = "0 0 30px rgba(0, 255, 0, 0.6)";
+  contadorDiv.style.textShadow = "0 0 30px rgba(64, 142, 163, 0.6)";
   resultadoDiv.appendChild(contadorDiv);
 
   const intervalo = setInterval(() => {

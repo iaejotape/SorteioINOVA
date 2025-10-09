@@ -107,13 +107,18 @@
 
           <div
             class="toggle-container"
+            role="button"
+            tabindex="0"
+            aria-pressed="false"
             onclick="document.getElementById('unique').click()"
+            onkeydown="if(event.key === 'Enter' || event.key === ' ') { event.preventDefault(); document.getElementById('unique').click(); }"
           >
             <input
               type="checkbox"
               id="unique"
               class="toggle-checkbox"
               aria-label="Não repetir números sorteados"
+              onchange="this.parentElement.setAttribute('aria-pressed', this.checked)"
             />
             <label for="unique" class="toggle-label" aria-hidden="true"></label>
             <span class="toggle-text">Não repetir número</span>
