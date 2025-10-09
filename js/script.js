@@ -124,9 +124,9 @@ function iniciarContagem(callback) {
   contadorDiv.classList.add("contador");
   contadorDiv.style.fontSize = "80px";
   contadorDiv.style.fontWeight = "bold";
-  contadorDiv.style.color = "#408ea3";
+  contadorDiv.style.color = "#8467bc";
   contadorDiv.style.textAlign = "center";
-  contadorDiv.style.textShadow = "0 0 30px rgba(64, 142, 163, 0.6)";
+  contadorDiv.style.textShadow = "0 0 30px rgba(132, 103, 188, 0.6)";
   resultadoDiv.appendChild(contadorDiv);
 
   const intervalo = setInterval(() => {
@@ -137,7 +137,7 @@ function iniciarContagem(callback) {
       clearInterval(intervalo);
       callback();
     }
-  }, 600);
+  }, 1000);
 }
 
 // Exibir resultados do sorteio
